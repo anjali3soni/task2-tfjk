@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This is Dhruv Bagora's React app for testing purpose.
+          This is Dhruv Bagora's React app for Jenkins hosting in s3 bucket.
         </p>
         <a
           className="App-link"
