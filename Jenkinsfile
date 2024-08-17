@@ -6,7 +6,7 @@ pipeline {
     }
     
     environment {
-        AWS_REGION = 'ap-south-1'
+        AWS_REGION = 'us-east-2'
         S3_BUCKET = 'react-app-bucket-abc' 
         PATH = "/usr/local/bin:$PATH"
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Dhruv-Bagora/react-app-jenkins.git'
+                git branch: 'master', url: 'https://github.com/anjali3soni/task2-tfjk.git'
             }
         }
         stage('Install Dependencies') {
